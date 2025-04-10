@@ -1,0 +1,9 @@
+FROM nginx:alpine
+
+#Create a simple HTML file
+
+RUN echo "Hello Ebtehal" > /usr/share/nginx/html/index.html
+
+#Expose port 80
+
+EXPOSE 80
